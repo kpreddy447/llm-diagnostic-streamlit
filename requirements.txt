@@ -1,0 +1,13 @@
+pandas
+sqlalchemy
+psycopg2
+openai
+streamlit
+python-dotenv
+matplotlib
+seaborn
+scikit-learn
+plotly
+google-generativeai
+pytesseract
+psycopg2-binary
