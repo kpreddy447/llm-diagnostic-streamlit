@@ -46,7 +46,7 @@ You're given:
 {df2_summary}
 
 ### Your Tasks:
-1. Identify dates where `{status}` counts differ significantly (>30%) between periods.
+1. Identify dates where `{status}` counts differ significantly (>5%) between periods.
 2. Analyze and explain possible causes for the differences using operation, browser, or OS patterns.
 3. Avoid any guesses. Use only visible evidence.
 
