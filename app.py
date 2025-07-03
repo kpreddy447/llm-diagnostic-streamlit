@@ -21,7 +21,7 @@ os_options = df['os'].dropna().unique().tolist()
 selected_operations = st.sidebar.multiselect("🔧 Operation", sorted(operation_options))
 selected_browsers = st.sidebar.multiselect("🌐 Browser", sorted(browser_options))
 selected_oses = st.sidebar.multiselect("💻 OS", sorted(os_options))
-status_toggle = st.sidebar.radio("✅ Choose Status to Visualize", ["Success", "Failure"])
+status_toggle = st.radio("✅ Choose Status to Visualize", ["Success", "Failure"])
 
 # Date input
 st.sidebar.markdown("---")
